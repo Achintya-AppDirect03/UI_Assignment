@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Domfinal.css">
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="domjquery.js"></script>
+	<title>DOmAssignment Registration Form</title>
+</head>
+<body>
+		<header ><div class="header">
+					<div ><img  class="header_logo " src="/Users/achintya.srivastava/Downloads/DOM assignment/appdirect_logo.png" ></div>
+					<div ><a href="#" class="header_item1">MyApps</a></div>
+					<div><a href="#" class="header_item2">MarketPlace</a></div>
+					<div><a href="#" class="header_item3">Account</a>
+						<button  class="header_dropbtn">Achintaya Srivastava &#9662;</button>
+						 	<ul id="myDropdown" class="header_dropdown-content">
+						  	<li><a class="header_dropdown-content_deco" href="#">My Profile</a></li>
+						   	<li><a class="header_dropdown-content_deco" href="#">My Company</a></li>
+						    <li><a class="header_dropdown-content_deco" href="#">My Settings</a></li>
+						    <li><a class="header_dropdown-content_deco" href="#">Log Out</a></li>
+						  </ul>
+					</div>
+				</div>	
+		</header>
+		<section>
+			<div class="section">
+				<p class="section_heading1">REGISTRATION FORM </p>
+				
+				<ul class="section_form_elements">
+					<li>First Name
+						<span class="section_form_elements_input"> <input id="fname" type="text" name="fname" value="" required></br>
+						</span>
+					</li>
+					<li>Last Name 
+						<span class="section_form_elements_inputs1"><input id="lname" type="text" name="lname" value="" ></br>
+						</span> 
+					</li>
+					<li>Address (P) 
+						<span class="section_form_elements_inputs2"><input  id="Permanent_address" type="text" name="Permanent_address" value="" required></br>
+						</span>
+					</li>
+					<li><span class="section_form_elements_inputs3">
+						<input  type="checkbox" id="mycheck" > 
+							<p class="section_form_elments_check_text">check if the current address is same</br> as the permanent address </p></br> </span>
+					</li>
+					<li>Address (C) 
+						<span class="section_form_elements_inputs4">
+						<input id="current_address" type="text" name="current_address" value=""  required></br>
+						</span>
+					</li>
+					<li>E-mail 
+						<span class="section_form_elements_inputs5">
+						<input id="email" type="text" name="E-mail" placeholder="Email-id"  required></br>
+						</span>
+					</li>
+					<li>Phone-no. 
+						<span class="section_form_elements_inputs6"> 
+						<input id="phone_no" type="text" name="Phone-no" value="" maxlength="10" required></br>
+						</span>
+					</li>
+					<li>Password 
+						<span class="section_form_elements_inputs7">
+						<input id="intialpass" type="Password" name="Password"  required></br>
+						</span>
+					</li>
+					<li>Confirm Password 
+						<span class="section_form_elements_inputs8">
+						<input type="password"  placeholder="Confirm Password" id="Confirmpass" required><br/>
+						</span>
+					</li>
+				</ul>
+					<div class="section_buttons">
+						<a href=""><input id="reset" type="button" name="Reset" value="Reset" ; class="section_buttons_reset"></a>
+						<input  id="register" type="button" name="Register" value="Register form" class="section_buttons_register" >
+					</div>
+
+				
+			</div>
+			<div class="section_form2">
+			<p class="section_heading1">DASHBOARD</p>
+				<p id='parent-div' ></p>
+
+			</div>
+		</section>
+		<footer class="footer">
+			<div >
+			<ul class="footer_items"><li>
+				<a href="#" class="footer_logo"></a>
+			</li>
+			<li class="footer_items_item1"> Powered by AppDirect ©2009-2017 English (United States) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp</li>
+			<li class="footer_items_item1"> 
+				<select class="footer_items_language_selector">
+					<option value="English"> English (United States)</option>
+					<option value="suomi"> Suomi</option>
+					<option value="Español"> Español</option>
+					<option value="français"> Français</option>
+					<option value="Español">Español Mèxico </option>
+					<option value="Norsk">Norsk </option>
+					<option value="French">French</option>
+				</select>		
+			</li>
+			<li class="footer_items_item1"> Help Centre</li>
+			<li class="footer_items_item1"> Privacy Policy</li>
+			<li class="footer_items_item1"> Terms and Conditions</li>
+			<li class="footer_items_item1"> Contact</li>
+			</ul>
+				
+				
+				
+			</div>
+		</footer>
+</body>
+</html>

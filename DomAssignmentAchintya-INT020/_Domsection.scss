@@ -1,0 +1,165 @@
+section {
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.section {
+	background: url("/Users/achintya.srivastava/Desktop/applogo12.jpeg") no-repeat;
+	border: 2px solid black;
+	width: 750px;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 2px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	font-family: sans-serif;
+	font-size: large;
+	margin-left: 40px;
+	background-size: cover;
+
+	&_heading1 {
+		font-size: xx-large;
+		font-family: sans-serif;
+	}
+
+	&_form_elements {
+		list-style: none;
+		text-align: center;
+		font-size: 19px;
+		font-family: sans-serif;
+		padding-left: 0px;
+		padding-right: 20px;
+
+		&_input {
+			position: relative;
+			left: 50px;
+		}
+
+		&_inputs1 {
+			position: relative;
+			left: 50px;
+		}
+
+		&_inputs2 {
+			position: relative;
+			left: 46px;
+		}
+
+		&_inputs3 {
+			position: relative;
+			left: 39px;
+		}
+
+		&_check_text {
+			position: relative;
+			left: 350px;
+			margin-top: 2px;
+			margin-bottom: 2px;
+			width: 435px;
+			display: flex;
+		}
+
+		&_inputs4 {
+			position: relative;
+			left: 46px;
+		}
+
+		&_inputs5 {
+			position: relative;
+			left: 69px;
+		}
+
+		&_inputs6 {
+			position: relative;
+			left: 53px;
+		}
+
+		&_inputs7 {
+			position: relative;
+			left: 55px;
+		}
+
+		&_inputs8 {
+			position: relative;
+			left: 19px;
+		}
+	}
+
+	&_buttons {
+		display: flex;
+		justify-content: center;
+		margin-top: 3px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+
+		&_reset {
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-bottom: 15px;
+			padding-top: 15px;
+			margin-right: 25px;
+			border-left-width: 2px;
+			border-right-width: 2px;
+			font-size: medium;
+			font-family: sans-serif;
+			background-color: #1078EE;
+			color: #F7F9F9;
+		}
+
+		&_register {
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-bottom: 15px;
+			padding-top: 15px;
+			margin-right: 25px;
+			border-left-width: 2px;
+			border-right-width: 2px;
+			font-size: medium;
+			font-family: sans-serif;
+			background-color: #24B210;
+			color: #F7F9F9;
+		}
+	}
+
+	&_form2 {
+		border: 2px solid black;
+		width: 500px;
+		padding-top: 10px;
+		margin-bottom: 2px;
+		margin-right: 10px;
+		font-family: sans-serif;
+		font-size: large;
+		margin-left: 40px;
+		text-align: center;
+		overflow: scroll;
+		padding-bottom: 0px;
+		height: 590px;
+	}
+}
+
+input {
+	padding-top: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 7px;
+	padding-bottom: 2px;
+}
+
+#parent-div {
+	display: flex;
+	flex-direction: column;
+}
+
+.dashboard_design {
+	color: #B4B3AC;
+	font-size: 30px;
+	text-align: center;
+}
