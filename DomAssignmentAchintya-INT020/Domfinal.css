@@ -1,0 +1,273 @@
+body {
+  margin-top: 4px;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+.header {
+  background-color: #2D2A26;
+  display: flex;
+  height: 64px; }
+  .header_logo {
+    height: 60px;
+    width: 51px;
+    padding-right: 40px;
+    padding-left: 110px; }
+  .header_item1 {
+    padding-top: 22px;
+    padding-bottom: 21px;
+    width: 137.969;
+    color: #828383;
+    margin-right: 30px;
+    position: relative;
+    top: 23px;
+    text-decoration: none;
+    border: solid 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #1A1A1A; }
+  .header_item2 {
+    padding-top: 22px;
+    padding-bottom: 21px;
+    width: 137.969;
+    color: #828383;
+    margin-right: 30px;
+    position: relative;
+    top: 23px;
+    text-decoration: none;
+    border: solid 1px;
+    border-color: #1A1A1A;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .header_item3 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    width: 137.969;
+    color: #828383;
+    margin-right: 30px;
+    position: relative;
+    left: 575px;
+    position: relative;
+    text-decoration: none;
+    border: solid 1px;
+    border-color: #1A1A1A;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .header_dropbtn {
+    background-color: #2D2A26;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    width: 137.969;
+    color: #AFB2B3;
+    margin-right: 30px;
+    position: relative;
+    left: 575px;
+    position: relative;
+    text-decoration: none;
+    border: solid 1px;
+    border-color: #1A1A1A;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .header_dropbtn:hover {
+    background-color: #545656; }
+  .header_dropbtn:focus {
+    background-color: #545656; }
+  .header_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 176px;
+    overflow: auto;
+    border: solid 1px;
+    border-color: grey;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 697px;
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    font-weight: smaller; }
+  .header_dropdown-content a {
+    color: black;
+    font-weight: smaller;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid grey; }
+  .header_dropdown-content_deco:hover {
+    background-color: #009abf; }
+
+.show {
+  display: block; }
+
+.footer {
+  margin-top: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 4px;
+  padding-bottom: 20px;
+  height: 75px;
+  padding-left: 70px;
+  padding-right: 80px; }
+  .footer_items {
+    border-top: solid 1px #D0D3D4;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    list-style: none; }
+  .footer_logo {
+    background: url("appdirect_footer.png") no-repeat;
+    height: 17px;
+    width: 40px;
+    background-size: contain;
+    position: absolute;
+    left: 94px; }
+  .footer_items_item1 {
+    position: relative;
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #D0D3D4;
+    margin-right: 30px; }
+  .footer_items_language_selector {
+    width: 150px;
+    background: white;
+    border-color: white;
+    height: 17px;
+    color: #D0D3D4;
+    font-family: sans-serif;
+    position: relative;
+    top: -1px; }
+
+section {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.section {
+  background: url("applogo12.jpeg") no-repeat;
+  border: 2px solid black;
+  width: 750px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 2px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-size: large;
+  margin-left: 40px;
+  background-size: cover; }
+  .section_heading1 {
+    font-size: xx-large;
+    font-family: sans-serif; }
+  .section_form_elements {
+    list-style: none;
+    text-align: center;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding-left: 0px;
+    padding-right: 20px; }
+    .section_form_elements_input {
+      position: relative;
+      left: 50px; }
+    .section_form_elements_inputs1 {
+      position: relative;
+      left: 50px; }
+    .section_form_elements_inputs2 {
+      position: relative;
+      left: 46px; }
+    .section_form_elements_inputs3 {
+      position: relative;
+      left: 39px; }
+    .section_form_elements_check_text {
+      position: relative;
+      left: 350px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      width: 435px;
+      display: flex; }
+    .section_form_elements_inputs4 {
+      position: relative;
+      left: 46px; }
+    .section_form_elements_inputs5 {
+      position: relative;
+      left: 69px; }
+    .section_form_elements_inputs6 {
+      position: relative;
+      left: 53px; }
+    .section_form_elements_inputs7 {
+      position: relative;
+      left: 55px; }
+    .section_form_elements_inputs8 {
+      position: relative;
+      left: 19px; }
+  .section_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+    .section_buttons_reset {
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      margin-right: 25px;
+      border-left-width: 2px;
+      border-right-width: 2px;
+      font-size: medium;
+      font-family: sans-serif;
+      background-color: #1078EE;
+      color: #F7F9F9; }
+    .section_buttons_register {
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      margin-right: 25px;
+      border-left-width: 2px;
+      border-right-width: 2px;
+      font-size: medium;
+      font-family: sans-serif;
+      background-color: #24B210;
+      color: #F7F9F9; }
+  .section_form2 {
+    border: 2px solid black;
+    width: 500px;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: large;
+    margin-left: 40px;
+    text-align: center;
+    overflow: scroll;
+    padding-bottom: 0px;
+    height: 590px; }
+
+input {
+  padding-top: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 7px;
+  padding-bottom: 2px; }
+
+#parent-div {
+  display: flex;
+  flex-direction: column; }
+
+.dashboard_design {
+  color: #B4B3AC;
+  font-size: 30px;
+  text-align: center; }
+
